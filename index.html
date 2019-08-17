@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Activity 1: Basic HTML Bio</title>
+  <style>
+      blink {
+        animation: blinker 0.6s linear infinite;
+        color: #1c87c9;
+       }
+      @keyframes blinker {  
+        50% { opacity: 0; }
+       }
+       .blink-one {
+         animation: blinker-one 0.3s linear infinite;
+       }
+       .rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+       @keyframes blinker-one {  
+         0% { opacity: 0; }
+       }
+       .blink-two {
+         animation: blinker-two 1.4s linear infinite;
+       }
+       @keyframes blinker-two {  
+         100% { opacity: 0; }
+       }
+    </style>
+</head>
+
+<body>
+
+  <h1 class = "blink-one">Jack's Landing Page -- Welcome to the "Thunder Dome"</h1>
+
+
+  <img src="jack_png.png" alt="Jack Lindsay">
+
+  <p>Do work. Makin money. droppin bills.</p>
+  <br>
+  <p>Hollah</p>
+
+  <ul>
+    <li><strong>Email:</strong> <a href="#">info@iprospeak.com</a></li>
+    <li><strong>Github:</strong> <a href="#">SwagginGits</a></li>
+  </ul>
+
+  <table>
+    <tr>
+      <th>Books</th>
+      <th>Movies</th>
+      <th>Games</th>
+    </tr>
+    <tr>
+      <td>Rook</td>
+      <td>Dazed and Confused</td>
+      <td>World of Warcraft</td>
+    </tr>
+    <tr>
+      <td>Eragon</td>
+      <td>Alita: Battle Angel</td>
+      <td>Siege</td>
+    </tr>
+    <tr>
+      <td>Atomic Habits</td>
+      <td>Hateful 8</td>
+      <td>ForkKnife</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
