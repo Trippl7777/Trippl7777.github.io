@@ -4,10 +4,10 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>Cloudiness</title>
 
   <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="../Documents/GitHub/GTATL201905DATA3/11-Web/3/Activities/06-Stu_LoremGrid/Solved/style.css">
   <style type="text/css">
   .coloredbox {
     background-color: #FFFFFF;
@@ -21,8 +21,12 @@
 <!--add nav bar -->
 <div class="container">
 	<nav style="background-color: white; height: 56px" class="navbar navbar-expand-lg col-xl-12 fixed-top"></nav>
-	<div style="height: 55px; width: 180px; font-size: 40px; text-align: center" type="button" class='btn btn-info navbar fixed-top d-inline-flex offset-xl-1 col-xl-2'>Latitude</div>
-<nav style="background-color: white" class="navbar fixed-top navbar-expand-lg navbar-light offset-xl-8 col-sm-1"> <a class="navbar-brand" href="#"></a>
+	<div>
+	<a href="index.html">
+	<div style="height: 55px; width: 180px; font-size: 40px" type="button" class='btn btn-info navbar fixed-top d-inline-flex offset-xl-1 col-xl-2'>Latitude</div>
+		</a>
+	</div>
+<nav style="background-color: white" class="navbar fixed-top navbar-expand-lg navbar-light col-xl-4 offset-xl-8"> <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
     <div style="padding_left: 100px" class="collapse navbar-collapse" id="navbarSupportedContent1">
       <ul class="navbar-nav mr-auto">
@@ -37,11 +41,10 @@
         <li class="divider"></li>
       </ul>
     </div>
-			
 		<li class="nav-item active"> <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a> </li>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
             <div class="dropdown-divider"></div>
-             </div>
+            </div>
         </li>
         <li class="nav-item"> <a class="nav-link" href="Data.html">Data</a> </li>
       </ul>
@@ -61,16 +64,20 @@
 
   <div class="row">
 <div style="padding-left: 40px" class="col-xsm-1"></div>
-    <div class="col-xl-7 coloredbox" style="height: 500px">
+    <div class="col-xl-7 coloredbox" style="height: 900px">
 		  
-		  <h1 style="color: darkcyan">Summary: Latitude vs. X</h1>
+		  <h1 style="color: darkcyan">Cloudiness</h1>
 		  <hr>
 		  
 	    
 	    
-		  
-	    <img style: "padding-right: 45px" src="Fig1.png" alt="" width="175" height="175" class="text-wrap float-left"/>
-      
+			
+		 <div class="col-md-6 offset-md-1">
+	    <img src="Fig3.png" alt="" width="650" height="400"/>
+			
+		</div>	 
+		
+			 
 	    <p syle="font-size: 18px" class="flex-lg-wrap">	
 		<p style="font-size: 18px">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities. </p>
 		  <br>
@@ -94,9 +101,9 @@
 		<h1 style="color: darkcyan">Visualizations</h1>
 		<hr>
 		<p style= "padding-left: 65px">
-	    <img src="Fig1.png" width="175" height="175" alt=""/>
-		<img src="Fig2.png" width="175" height="175" alt=""/>
-		<img src="Fig3.png" width="175" height="175" alt=""/>
+		<img  src="Fig1.png" width="175" height="175" alt=""/>
+		<img  src="Fig2.png" width="175" height="175" alt=""/>
+		<img style="border-style:solid" src="Fig3.png" width="175" height="175" alt=""/>
 		<img src="Fig4.png" width="175" height="175" alt=""/>
 		
 		
@@ -108,6 +115,7 @@
 	
 	
 	</div>
+
 	<div class="col-xsm-1"></div>
     
   </div>

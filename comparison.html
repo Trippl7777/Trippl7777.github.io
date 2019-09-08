@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Comparison</title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="../Documents/GitHub/GTATL201905DATA3/11-Web/3/Activities/06-Stu_LoremGrid/Solved/style.css">
+  <style type="text/css">
+  .coloredbox {
+    background-color: #FFFFFF;
+    height: 800px;
+    width: 300px;
+}
+  </style>
+	
+	
+	
+<!--add nav bar -->
+<div class="container">
+	<nav style="background-color: white; height: 56px" class="navbar navbar-expand-lg col-xl-12 fixed-top"></nav>
+	<div>
+	<a href="index.html">
+	<div style="height: 55px; width: 180px; font-size: 40px" type="button" class='btn btn-info navbar fixed-top d-inline-flex offset-xl-1 col-xl-2'>Latitude</div>
+		</a>
+	</div>
+<nav style="background-color: white" class="navbar fixed-top navbar-expand-lg navbar-light col-xl-4 offset-xl-8"> <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div style="padding_left: 100px" class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        
+        <div class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots</a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">            
+        <li><a href="MaxTemp.html">Max Temps</a></li>
+		 <li><a href="Humidity.html">Humidity</a></li>
+		 <li><a href="Cloudiness.html">Cloudiness</a></li>
+		 <li><a href="Wind_speed.html">Wind Speed</a></li>
+        <li class="divider"></li>
+      </ul>
+    </div>
+		<li class="nav-item active"> <a class="nav-link" href="comparison.html">Comparison <span class="sr-only"></span></a> </li>
+<!--		  Spare parts-->
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+            <div class="dropdown-divider"></div>
+             </div>
+        </li>
+        <li class="nav-item active"> <a class="nav-link" href="Data.html">Data</a> </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+	
+<br> 
+</head>
+
+
+
+<body style='background-color: lightgrey'>
+
+
+<article style="padding-top: 50px">  <!-- Creates the Overall Grid -->
+
+  <div class="row">
+<div style="padding-left: 40px" class="col-xsm-1"></div>
+<div style="width: 30px" class="col-xsm-1">	</div>
+    <div class="col-lg-4 coloredbox col-xl-11" style="height: 1000px">
+		
+		<h1 style="color: darkcyan">Comparison: Latitude vs X</h1>
+		<hr>
+		<p style="padding-left: 20px">Click any plot to get an in-depth analysis.</p>
+		<p style= "padding-left: 65px">
+		<div style="padding-left:95px" class="row align-content-center">
+			
+			<div class="column" style="width:image width px; font-size:80%; text-align:center;">
+				
+				<h4 style="color:darkcyan">vs. Max Temperature</h3>
+				<a href="MaxTemp.html"><img  src="Fig1.png" width="600" height="350" alt="test"/></a>
+				
+			</div>
+			
+			<div class="column" style="width:image width px; font-size:80%; text-align:center; padding-left: 15px">
+				
+				<h4 style="color:darkcyan">vs. Humidity</h3>
+				<a href="Humidity.html"><img   src="Fig2.png" width="600" height="350" alt=""/></a>
+				
+			</div>
+			
+			<div class="column" style="width:image width px; font-size:80%; text-align:center;">
+				
+				<h4 style="color:darkcyan">vs. Cloudiness</h3>
+				<a href="Cloudiness.html"><img src="Fig3.png" width="600" height="350" alt=""/></a>
+				
+			</div>
+			
+			<div class="column" style="width:image width px; font-size:80%; text-align:center; padding-left: 15px">
+				
+				<h4 style="color:darkcyan">vs. Wind Speed</h3>
+				<a href="Wind_speed.html"><img src="Fig4.png" width="600" height="350" alt=""/></a>
+				
+			</div>
+		</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		</p>
+	
+	
+	
+	</div>
+
+	<div class="col-xsm-1"></div>
+    
+  </div>
+	</p>
+<script src="jquery-3.3.1.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap-4.3.1.js"></script>
+</article>
+</body>
+
+</html>
+
